@@ -1,0 +1,72 @@
+/* starting CSS Coding */
+@font-face {
+    font-family: L;
+    src: url(/asset/fonts/IRAN_Bold.ttf);
+}
+
+body {
+        font-family:L;
+        font-weight: bolder;
+        direction: rtl;
+        padding: 20px;
+        background: #111111;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    th, td {
+        padding: 12px;
+        text-align: center;
+        border: 2px solid #512e2e;
+    }
+    th {
+        background: #ff4d4d;
+        font-weight: bold;
+    }
+    img {
+        width: 80px;
+        height:80px;
+        object-fit: cover;
+        border-radius: 6px;
+        mix-blend-mode: multiply;
+    }
+    /* Set BG Color for order status */
+    .Sending{
+        border: none;
+        border-radius: 14px;
+        width: 90px;
+        display: flex;
+        margin:50px auto;    
+        background-color:#f1f12076;
+        text-align: center;
+    }
+
+    .Canceled{
+        border: none;
+        border-radius: 14px;
+        width: 45px;
+        display: flex;
+        margin:50px auto;    
+        background-color:#ff0000a9;
+    }
+
+    .Sent{
+                border: none;
+        border-radius: 14px;
+        width:70px;
+        display: flex;
+        margin:50px auto;    
+        background-color:#16bd40b5;
+    }
+
+    #Title{
+        color: #ddd;
+    }
+    /* Set 2px Solid border for Trs */
+    tr{
+        border: 2px solid #512e2e;
+    }
